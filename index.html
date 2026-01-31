@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="EnergyPOD — Modular Hybrid Energy & Digital Infrastructure Platform for Indonesia’s last‑mile power." />
+  <title>EnergyPOD — Modular Hybrid Energy & Digital Infrastructure</title>
+  <link rel="icon" href="energypod-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="EnergyPOD">
+        <img src="energypod-logo.png" alt="EnergyPOD" class="brand-mark" />
+        <span class="brand-text">EnergyPOD</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#solution" data-i18n="nav_solution">Solution</a>
+        <a href="#tiers" data-i18n="nav_tiers">Product Tiers</a>
+        <a href="#pltd" data-i18n="nav_pltd">PLTD Optimisation</a>
+        <a href="#demo" data-i18n="nav_demo">Demo Pod 001</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <button id="langBtn" class="btn btn-ghost" type="button" aria-label="Toggle language">
+          <span class="pill" id="langPill">EN</span>
+          <span class="muted" data-i18n="lang_label">Bahasa</span>
+        </button>
+        <a class="btn btn-primary" id="waTop" href="https://wa.me/6281908121255" target="_blank" rel="noreferrer" data-i18n="cta_whatsapp">
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="badge" data-i18n="hero_badge">Energy first. Intelligence later.</div>
+          <h1 data-i18n="hero_title">Modular hybrid power for Indonesia’s last‑mile electricity — built for scale.</h1>
+          <p class="lead" data-i18n="hero_subtitle">
+            A standardized, containerized hybrid microgrid (Solar PV + LFP BESS + Grid‑forming PCS + optional backup) designed for reliability in tropical conditions.
+          </p>
+
+          <div class="hero-cards">
+            <div class="card">
+              <div class="kpi">99%+</div>
+              <div class="kpi-label" data-i18n="kpi_uptime">Target uptime (site SLA)</div>
+            </div>
+            <div class="card">
+              <div class="kpi">40–70%</div>
+              <div class="kpi-label" data-i18n="kpi_diesel">Diesel runtime reduction</div>
+            </div>
+            <div class="card">
+              <div class="kpi">&lt; 60 days</div>
+              <div class="kpi-label" data-i18n="kpi_deploy">Demo deployment target</div>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#tiers" data-i18n="cta_view_tiers">View product tiers</a>
+            <a class="btn btn-secondary" href="#demo" data-i18n="cta_demo">Demo Pod 001 details</a>
+          </div>
+
+          <p class="fineprint" data-i18n="hero_note">
+            Designed for government & PLN programs, telecom electrification, and PLTD optimisation — with optional future digital upgrades.
+          </p>
+        </div>
+
+        <div class="hero-media">
+          <div class="media-frame">
+            <img src="hybrid-case.png" alt="EnergyPOD hybrid microgrid illustration" />
+          </div>
+          <div class="media-caption" data-i18n="hero_media_caption">Illustrative architecture: PV + BESS + PCS + optional genset + loads</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="solution">
+      <div class="container">
+        <h2 data-i18n="sol_title">Why EnergyPOD works where many projects fail</h2>
+        <div class="grid-3">
+          <div class="feature">
+            <h3 data-i18n="sol_f1_title">Grid‑forming stability</h3>
+            <p data-i18n="sol_f1_body">Battery‑led PCS forms a stable micro‑grid (voltage & frequency), enabling islanded operation, seamless transitions, and black‑start.</p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="sol_f2_title">Tropical resilience</h3>
+            <p data-i18n="sol_f2_body">Designed for 35–45°C ambient: proper HVAC zoning, dust protection, and thermal strategy for battery longevity.</p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="sol_f3_title">Standardized delivery</h3>
+            <p data-i18n="sol_f3_body">Factory‑built + FAT/SAT tested to reduce site risk, speed deployment, and enable repeat procurement as a replicable unit.</p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <div>
+            <div class="callout-title" data-i18n="callout_title">Operational sustainability is the real bottleneck.</div>
+            <p class="callout-body" data-i18n="callout_body">EnergyPOD can be packaged with an O&M + monitoring guarantee (SaaS) so stakeholders can budget operations, not just CAPEX.</p>
+          </div>
+          <a class="btn btn-primary" href="#contact" data-i18n="cta_talk">Talk to us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tiers">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="tiers_title">Product tiers</h2>
+          <p class="muted" data-i18n="tiers_subtitle">Standardized SKUs — sized for repeat procurement and fast deployment.</p>
+        </div>
+
+        <div class="tier-cards">
+          <article class="tier">
+            <div class="tier-top">
+              <div class="tier-tag">Tier 1</div>
+              <h3 data-i18n="t1_title">EnergyPOD Community</h3>
+              <p class="muted" data-i18n="t1_desc">Village clusters & public facilities (schools, clinics, markets, islands).</p>
+            </div>
+            <ul class="spec">
+              <li><span data-i18n="spec_load">Target load</span><strong>75–125 kW</strong></li>
+              <li><span>Solar PV</span><strong>40–80 kWp</strong></li>
+              <li><span>BESS (LFP)</span><strong>300–600 kWh</strong></li>
+              <li><span>PCS (grid‑forming)</span><strong>100–150 kW</strong></li>
+              <li><span data-i18n="spec_backup">Backup</span><strong>60–100 kVA (optional)</strong></li>
+              <li><span data-i18n="spec_container">Container</span><strong>1× 20‑ft HC</strong></li>
+            </ul>
+          </article>
+
+          <article class="tier">
+            <div class="tier-top">
+              <div class="tier-tag">Tier 2</div>
+              <h3 data-i18n="t2_title">EnergyPOD Industrial</h3>
+              <p class="muted" data-i18n="t2_desc">Telecom hubs, estates, mining support, ports — higher peaks & reliability.</p>
+            </div>
+            <ul class="spec">
+              <li><span data-i18n="spec_load">Target load</span><strong>150–300 kW</strong></li>
+              <li><span>Solar PV</span><strong>80–200 kWp</strong></li>
+              <li><span>BESS (LFP)</span><strong>600–1,200 kWh</strong></li>
+              <li><span>PCS (grid‑forming)</span><strong>200–300 kW</strong></li>
+              <li><span data-i18n="spec_backup">Backup</span><strong>150–300 kVA (N+1 optional)</strong></li>
+              <li><span data-i18n="spec_container">Container</span><strong>1–2× 20‑ft</strong></li>
+            </ul>
+          </article>
+
+          <article class="tier">
+            <div class="tier-top">
+              <div class="tier-tag">Tier 3</div>
+              <h3 data-i18n="t3_title">EnergyPOD Cluster</h3>
+              <p class="muted" data-i18n="t3_desc">Scale by replication: multi‑pod mini‑grid (programmatic deployments).</p>
+            </div>
+            <ul class="spec">
+              <li><span data-i18n="spec_config">Configuration</span><strong>2–6 pods in parallel</strong></li>
+              <li><span data-i18n="spec_pv">PV field</span><strong>Scaled (hundreds of kWp)</strong></li>
+              <li><span data-i18n="spec_bess">Battery</span><strong>Distributed across pods</strong></li>
+              <li><span data-i18n="spec_control">Control</span><strong>Coordinated EMS / fleet</strong></li>
+              <li><span data-i18n="spec_benefit">Key benefit</span><strong>No single oversized failure point</strong></li>
+              <li><span data-i18n="spec_upgrade">Upgrades</span><strong>Digital + ComputePOD (optional)</strong></li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="media-slab">
+          <div class="media-slab-copy">
+            <h3 data-i18n="layout_title">Tier 1 site layout (ground‑mounted PV)</h3>
+            <p class="muted" data-i18n="layout_body">Typical footprint includes PV field, container pad, safety clearance, and optional genset area. Exact sizing depends on PV kWp and site access.</p>
+            <div class="chips">
+              <span class="chip">PV: ~240–320 m² (40 kWp)</span>
+              <span class="chip" data-i18n="chip_container">Container pad: ~30–50 m²</span>
+              <span class="chip" data-i18n="chip_clearance">Clearance & access: +50–150 m²</span>
+              <span class="chip" data-i18n="chip_genset">Genset bay: +15–30 m² (optional)</span>
+            </div>
+          </div>
+          <div class="media-slab-img">
+            <img src="site-layout-tier1.png" alt="Tier 1 site layout" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pltd">
+      <div class="container">
+        <h2 data-i18n="pltd_title">PLTD optimisation opportunity</h2>
+        <p class="muted" data-i18n="pltd_body">
+          Many remote grids rely on diesel (PLTD). EnergyPOD can be deployed as a standardized hybrid add‑on to reduce diesel runtime and cost, while improving reliability and power quality.
+        </p>
+        <div class="grid-3">
+          <div class="feature">
+            <h3 data-i18n="pltd_f1_title">Drop‑in hybridization</h3>
+            <p data-i18n="pltd_f1_body">Add PV + BESS + PCS to existing diesel systems, shift energy to low‑cost solar, and use genset only when needed.</p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="pltd_f2_title">Standard SKU</h3>
+            <p data-i18n="pltd_f2_body">Repeat procurement across provinces with consistent specs, testing, and O&M structure.</p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="pltd_f3_title">Data for budgeting</h3>
+            <p data-i18n="pltd_f3_body">Monitoring & reporting helps PLN/ESDM track diesel savings, uptime, and performance — enabling better OPEX planning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="demo">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="demo_title">Demo Pod 001</h2>
+          <p class="muted" data-i18n="demo_subtitle">A reference asset to validate performance, documentation, and operational model — before scaling.</p>
+        </div>
+
+        <div class="two-col">
+          <div class="panel">
+            <h3 data-i18n="demo_kpi">KPIs to prove</h3>
+            <ul class="check">
+              <li data-i18n="demo_k1">Islanded operation + grid‑forming stability</li>
+              <li data-i18n="demo_k2">Black‑start capability</li>
+              <li data-i18n="demo_k3">Diesel runtime reduction vs baseline</li>
+              <li data-i18n="demo_k4">Thermal strategy for 35–45°C ambient</li>
+              <li data-i18n="demo_k5">FAT/SAT documentation for replication</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3 data-i18n="demo_stack">Reference stack (demo)</h3>
+            <ul class="spec">
+              <li><span>Solar PV</span><strong>20–40 kWp</strong></li>
+              <li><span>BESS (LFP)</span><strong>200–300 kWh</strong></li>
+              <li><span>PCS (grid‑forming)</span><strong>50–100 kW</strong></li>
+              <li><span data-i18n="spec_backup">Backup</span><strong>30–50 kVA (optional)</strong></li>
+              <li><span data-i18n="spec_container">Container</span><strong>20‑ft High Cube</strong></li>
+              <li><span data-i18n="spec_monitor">Monitoring</span><strong>Local HMI + remote gateway</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact">
+          <div>
+            <h2 data-i18n="contact_title">Let’s collaborate</h2>
+            <p class="muted" data-i18n="contact_body">If you’re PLN/ESDM, provincial government, telecom, EPC, or technology partner — we can share specs, deployment approach, and an O&M model that actually sustains the system.</p>
+            <div class="contact-actions">
+              <a class="btn btn-primary" href="https://wa.me/6281908121255" target="_blank" rel="noreferrer" data-i18n="cta_whatsapp">WhatsApp</a>
+              <a class="btn btn-secondary" href="mailto:info@energypod.id" data-i18n="cta_email">Email</a>
+            </div>
+            <p class="fineprint">WhatsApp: +62 819-0812-1255</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-kpi">
+              <div class="kpi">EnergyPOD</div>
+              <div class="kpi-label" data-i18n="contact_kpi">Modular Hybrid Energy & Digital Infrastructure Platform</div>
+            </div>
+            <div class="divider"></div>
+            <p class="muted" data-i18n="contact_note">Note: compute/AI modules are optional and separate (ComputePOD). The initial focus is reliable electricity first.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="muted">© <span id="year"></span> EnergyPOD</span>
+      <span class="muted" data-i18n="footer_note">Built for Indonesia’s last‑mile power.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
